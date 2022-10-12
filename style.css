@@ -19,3 +19,39 @@ body {
   .sidebar {
     background-color: black;
   }
+
+  .fa-circle-down {
+    color: white;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .searcher {
+    margin: 0 auto;
+  }
+
+  .upgrade-bar {
+    background-color: black;
+  }
+
+  .player-bar {
+    flex-shrink: 0;
+    height: 80px;
+    background-color: rgba(27, 25, 25, 0.438);
+
+  }
+
+  .player-bar-sx {
+    flex-basis: 25%;
+  }
+
+  .player-bar-mx {
+    flex-basis: 25%;
+  }
+
+  .player-bar-dx {
+    flex-basis: 25%;
+  }
