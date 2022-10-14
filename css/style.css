@@ -1,0 +1,136 @@
+/*************************
+GENERAL RULES
+**************************/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    color: white;
+  }
+
+  .up-container {
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: lightgray;
+    text-decoration: none;
+    padding-bottom: 0.8rem;
+    align-items: center;
+    display: block;
+  }
+
+
+/*************************
+UTILITIES
+**************************/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/*************************
+SECTION MACRO AREE
+**************************/
+
+
+
+/**SIDEBAR**/
+
+.sidebar {
+  background-color: black;
+  width: 50px;
+  padding: 0 1rem;
+  flex-direction: column;
+}
+
+.fa-circle-down {
+  color: white;
+}
+
+.tag-icon {
+  flex-basis: 100%;
+}
+
+.text-poof {
+  display: none;
+}
+
+#big-logo {
+  display: none;
+}
+
+.up-section {
+  flex-shrink: 0;
+}
+
+.middle-section {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.playlist-container {
+  display: none;
+}
+
+.user-container {
+  flex-shrink: 0;
+}
+
+
+/**MAIN**/
+
+.upgrade-bar {
+  background-color: black;
+}
+
+.main-container {
+  background-color: lightgray;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+
+
+
+
+/**BARRA FOOTER**/
+.player-bar {
+  flex-shrink: 0;
+  background-color: rgba(27, 25, 25, 0.438);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

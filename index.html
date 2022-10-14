@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-style.css">
     <title>Spotify</title>
 </head>
 
@@ -20,93 +20,161 @@
                 <ul class="lista-bar">
                     <li>
                         <a href="#" class="logo-top">
-                            a
+
                             <img src="img/logo-small.svg" alt="" class="logo-small">
+                            <img src="img/logo.svg" alt="" id="big-logo">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="home">
-                            b
-                            <img src="img/home.svg" alt="">
+                        <a href="#" class="home row">
+
+                            <span class="tag-icon"><img src="img/home.svg" alt=""></span>
+                            <span class="text-poof">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="search">
-                            c
-                            <img src="img/search.svg" alt="">
+                        <a href="#" class="search row">
+
+                            <span class="tag-icon"><img src="img/search.svg" alt=""></span>
+                            <span class="text-poof">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="library">
-                            d
-                            <img src="img/libreria.svg" alt="">
+                        <a href="#" class="library row">
+
+                            <span class="tag-icon"><img src="img/libreria.svg" alt=""></span>
+                            <span class="text-poof">Home</span>
                         </a>
                     </li>
                 </ul>
-
-                <ul>
-                    <li>
-                        <i class="fa-regular fa-circle-down"></i>
-                    </li>
-                    <li>
-                        <img src="img/profile.svg" alt="">
-                    </li>
-                </ul>
-
             </section>
+
+            <div class="middle-section">
+                <div class="playlist-container">
+                    <h3>PLAYLIST</h3>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-square-plus"></i>
+                                Crea Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nome Playlist
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="bottom-section">
+                <div class="download-container row">
+                    <i class="fa-regular fa-circle-down"></i>
+                    <div class="text-poof">
+                        <h4>Installa app</h4>
+                    </div>
+                </div>
+
+                <div class="user-container row">
+                    <span class="tag-icon"><img src="img/profile.svg" alt=""></span>
+                    <div class="text-poof">
+                        <h3>John Doe</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="main-container">
+            <div class="upgrade-bar">
+                <button>EFFETTUA UPGRADE</button>
+
+            </div>
+            <div class="searcher">
+                <h3>IN EVIDENZA</h3>
+                <h3>PODCAST</h3>
+                <h3>CLASSIFICHE</h3>
+                <h3>GENERI E MOD</h3>
+                <h3>NUOVE USCITE</h3>
+                <h3>SCOPRI</h3>
+
+
+
+            </div>
         </div>
     </div>
 
-    <div class="upgrade-bar">
-        <button>EFFETTUA UPGRADE</button>
-
-    </div>
-    <main>
-        <div class="searcher">
-            <h3>IN EVIDENZA</h3>
-            <h3>PODCAST</h3>
-            <h3>CLASSIFICHE</h3>
-            <h3>GENERI E MOD</h3>
-            <h3>NUOVE USCITE</h3>
-            <h3>SCOPRI</h3>
 
 
 
+
+
+
+
+
+
+
+
+    <footer class="player-bar">
+        <div class="player-bar-sx">
+            <img src="img/sinister.jpeg" alt="">
+            cuore cartella
         </div>
+        <div class="player-bar-mx">
+            <ol>
+                <li>random</li>
+                <li>dietro</li>
+                <li>play</li>
+                <li>fw</li>
+                <li>repeat</li>
 
-
-
-
-
-
-
-
-
-    </main>
-<footer class="player-bar row">
-    <div class="player-bar-sx row">
-        <img src="img/sinister.jpeg" alt="">
-        cuore cartella
-    </div>
-    <div class="player-bar-mx row">
-        <ol>
-            <li>random</li>
-            <li>dietro</li>
-            <li>play</li>
-            <li>fw</li>
-            <li>repeat</li>
-
-        </ol>
-    </div>
-    <div class="player-bar-dx row">
-        <ol>
-            <li>elenco</li>
-            <li>pc</li>
-            <li>suono</li>
-            <li>barra</li>
-        </ol>
-    </div>
-</footer>
+            </ol>
+        </div>
+        <div class="player-bar-dx">
+            <ol>
+                <li>elenco</li>
+                <li>pc</li>
+                <li>suono</li>
+                <li>barra</li>
+            </ol>
+        </div>
+    </footer>
 
 </body>
 

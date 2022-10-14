@@ -1,0 +1,39 @@
+/* sm-small */
+@media screen and (min-width: 568px) {
+
+    .sidebar {
+        width: 200px;
+        padding: 1rem 1rem 0.5rem 1rem;
+    }
+
+    .text-poof {
+        display: block;
+        flex-basis: 75%;
+    }
+
+    #big-logo {
+        display: block;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .tag-icon {
+        flex-basis: 25%;
+    }
+
+    
+
+    }
+
+
+
+
+
+
+/* md-medium */
+@media screen and (min-width: 768px) {}
+
+/* lg-large */
+@media screen and (min-width: 992px) {}
