@@ -2,7 +2,7 @@
 @media screen and (min-width: 568px) {
 
     .sidebar {
-        width: 200px;
+        flex-basis: 200px;
         padding: 1rem 1rem 0.5rem 1rem;
     }
 
@@ -11,7 +11,7 @@
         flex-basis: 75%;
     }
 
-    #big-logo {
+    #big-logo, .playlist-container {
         display: block;
     }
 
