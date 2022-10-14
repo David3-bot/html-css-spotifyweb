@@ -4,6 +4,11 @@
 	padding: 0
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 100vh;
@@ -39,19 +44,7 @@ body {
 
   .player-bar {
     flex-shrink: 0;
-    height: 80px;
     background-color: rgba(27, 25, 25, 0.438);
-
-  }
-
-  .player-bar-sx {
-    flex-basis: 25%;
-  }
-
-  .player-bar-mx {
-    flex-basis: 25%;
-  }
-
-  .player-bar-dx {
-    flex-basis: 25%;
+    display: flex;
+    justify-content: space-between;
   }
